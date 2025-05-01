@@ -145,8 +145,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-* Thanks to all the developers of the tools integrated into PyBoost
-* Special thanks to the Python community for their continuous support
