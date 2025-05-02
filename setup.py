@@ -14,19 +14,23 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read().splitlines()
 
 setup(
-    name="pyboost",
-    version="0.1.0",
+    name="pyboost-toolkit",
+    version="1.0.0",
     author="Alexandros Liaskos",
-    author_email="alexandros.liaskos@example.com",
+    author_email="alexandros.liaskos@gmail.com",
     description="Ultimate Python Code Maintenance Toolkit",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AlexandrosLiaskos/pyboost",
+    project_urls={
+        "Documentation": "https://github.com/AlexandrosLiaskos/pyboost/blob/main/README.md",
+        "Bug Reports": "https://github.com/AlexandrosLiaskos/pyboost/issues",
+        "Source Code": "https://github.com/AlexandrosLiaskos/pyboost",
+    },
     packages=find_packages(),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",

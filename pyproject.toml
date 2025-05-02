@@ -2,6 +2,18 @@
 requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "pyboost-toolkit"
+version = "1.0.0"
+description = "Ultimate Python Code Maintenance Toolkit"
+readme = "README.md"
+authors = [
+    {name = "Alexandros Liaskos", email = "alexandros.liaskos@gmail.com"}
+]
+license = "MIT"
+requires-python = ">=3.8"
+dynamic = ["classifiers", "dependencies", "optional-dependencies", "scripts", "urls"]
+
 [tool.black]
 line-length = 88
 target-version = ["py38", "py39", "py310", "py311", "py312"]

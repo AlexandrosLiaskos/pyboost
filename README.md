@@ -1,5 +1,9 @@
 # PyBoost - Ultimate Python Code Maintenance Toolkit
 
+[![PyPI version](https://img.shields.io/pypi/v/pyboost-toolkit.svg)](https://pypi.org/project/pyboost-toolkit/)
+[![Python versions](https://img.shields.io/pypi/pyversions/pyboost-toolkit.svg)](https://pypi.org/project/pyboost-toolkit/)
+[![License](https://img.shields.io/github/license/AlexandrosLiaskos/pyboost.svg)](https://github.com/AlexandrosLiaskos/pyboost/blob/main/LICENSE)
+
 PyBoost is a comprehensive toolkit for cleaning, optimizing, and improving Python code. It integrates multiple tools into a single, easy-to-use package.
 
 ## Features
@@ -19,22 +23,26 @@ PyBoost combines the following tools:
 
 ## Installation
 
+The package is available on [PyPI](https://pypi.org/project/pyboost-toolkit/) as `pyboost-toolkit`.
+
+> **Note:** While the package name is `pyboost-toolkit`, the command-line tools are still named `pyboost`, `pybackup`, etc.
+
 ### Basic Installation
 
 ```bash
-pip install pyboost
+pip install pyboost-toolkit
 ```
 
 ### Full Installation (with all optional tools)
 
 ```bash
-pip install pyboost[all]
+pip install pyboost-toolkit[all]
 ```
 
 ### Development Installation
 
 ```bash
-pip install pyboost[dev]
+pip install pyboost-toolkit[dev]
 ```
 
 ## Usage
