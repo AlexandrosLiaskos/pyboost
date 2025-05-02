@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Ultimate Python Code Maintenance Toolkit"
 readme = "README.md"
 authors = [
-    {name = "Alexandros Liaskos", email = "alexandros.liaskos@gmail.com"}
+    {name = "Alexandros Liaskos", email = "alexliaskosga@gmail.com"}
 ]
 license = "MIT"
 requires-python = ">=3.8"

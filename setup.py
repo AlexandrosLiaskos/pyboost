@@ -17,7 +17,7 @@ setup(
     name="pyboost-toolkit",
     version="1.0.0",
     author="Alexandros Liaskos",
-    author_email="alexandros.liaskos@gmail.com",
+    author_email="alexliaskosga@gmail.com",
     description="Ultimate Python Code Maintenance Toolkit",
     long_description=long_description,
     long_description_content_type="text/markdown",
